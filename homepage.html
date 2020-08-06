@@ -6,9 +6,16 @@
   <link rel="stylesheet" href="homepage.css">
   <title>You're Okay!</title>
 </head>
+<script>
+  function formSubmit() {
+      document.forms["myForm"].submit();
+  }
+</script>
 <body>
 
-  <h1>Eventually things will be okay</h1>
+  <h1>Eventually things will be okay!</h1>
+  <h2>You can think of this as a community homepage!</h2>
+  <h3>Soon you will be able to post messages here for others!</h3>
     <a href="index.html" class="nav-link"><button>Nothing here! Go back!</button></a>
   <h4>Or...</h4>
   <h5>Be naughty</h5>
@@ -16,6 +23,14 @@
       <button style="height:18px;width:60px;" id="sneaky-button">come in...
       </button>
     </a>
+
+  <h5>Hey... Would you like to submit a message right now?</h5>
+  <form name="newform" action="file:///C:/Users/Zack/Desktop/deprchan/homepage.html">
+    <input type="text" name="msgname">
+    <br>
+    <br>
+    <input type="submit" onclick="formSubmit()" value='whisper'>
+  </form>
 
     <iframe src="./assets/Ranch.mp3" allow="autoplay" id="iframeAudio" style="display: none;"></iframe>
 </body>
