@@ -3,18 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="css/homepage.css">
+  <script src="scripts/index.js"></script>
   
   <title>You're Okay!</title>
 </head>
-<script>
-  function formSubmit() {
-      document.forms["myForm"].submit();
-  }
-</script>
-<body>
+<body onload="homePageDisplay()">
 
-  <h1>Eventually things will be okay!</h1>
+  <h1 id="userNameDisplay"></h1>
   <h2>You can think of this as a community homepage!</h2>
   <h3>Soon you will be able to post messages here for others!</h3>
     <a href="index.html" class="nav-link"><button>Nothing here! Go back!</button></a>

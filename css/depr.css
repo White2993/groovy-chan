@@ -17,3 +17,17 @@ footer {
   bottom: 0px;
   color: white;
 }
+
+.colorChangingLogo {
+  animation: color-change 500ms infinite;
+}
+
+@keyframes color-change {
+  0%   {color: violet;}
+  17%  {color: indigo;}
+  33%  {color: blue;}
+  49%   {color: green;}
+  65%  {color: yellow;}
+  81%  {color: orange;}
+  100%   {color: red;}
+}
