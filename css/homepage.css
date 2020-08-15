@@ -9,6 +9,14 @@ body {
   font-size: 10px;
 }
 
+#userNameDisplay {
+  margin-bottom: 0;
+}
+
+#changeUserName {
+  margin-top: 0;
+}
+
 footer {
   width: 100vw;
   position: absolute;
