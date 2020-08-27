@@ -17,7 +17,7 @@ function userNameCheck() {
 }
 
 function profilePageDisplay() {
-  document.getElementById("profileNameDisplay").innerHTML = "Congratulations, " + localStorage.getItem('username')
+  document.getElementById("profileNameDisplay").innerHTML = "Congratulations " + localStorage.getItem('username')
 }
 
 function userNameClear() {
